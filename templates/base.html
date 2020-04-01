@@ -1,0 +1,19 @@
+{% extends 'bootstrap/base.html' %}
+{% block head %}
+{{ ckeditor.load() }}
+{{ super() }}
+{% endblock %}
+
+{% block title %}
+    Flog
+    {% endblock %}
+    {% block navbar %}
+    {% include 'navbar.html' %}
+    {% endblock %}
+{% block content %}
+
+{% block bod %}
+
+{% endblock %}
+
+{% endblock %}
