@@ -9,7 +9,7 @@ app=Flask(__name__)
 
 app.config['MYSQL_HOST']='localhost'
 app.config['MYSQL_USER']='root'
-app.config['MYSQL_PASSWORD']='compactpass@1'
+app.config['MYSQL_PASSWORD']='XXXXXXX'
 app.config['MYSQL_DB']='flog_db'
 app.config['MYSQL_CURSORCLASS']='DictCursor'
 mysql=MySQL(app)
